@@ -3,7 +3,10 @@
 This project demonstrates a **swarm robotics system** using ROS2 and Turtlesim, where multiple agents coordinate to maintain dynamic formations while following a leader.
 
 ---
+Medium Blog
 
+[Swarm Robotics in ROS2: Building Dynamic Formations with Turtlesim](https://medium.com/@pawanwork145/swarm-robotics-in-ros2-building-dynamic-formations-with-turtlesim-d3b987e650fb)
+---
 ## 🚀 Overview
 
 The system consists of:
