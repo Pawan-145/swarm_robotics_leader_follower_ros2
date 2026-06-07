@@ -24,7 +24,7 @@ The formation automatically changes every **10 seconds**, showcasing adaptive mu
 
 ## 🎥 Demo
 
-> Add a GIF or screen recording here (recommended for best impact)
+![Swarm_robotics_turtlesim](assets/demo.png)
 
 ---
 
@@ -67,6 +67,8 @@ Follower targets are computed using a rotation transformation:
 $x_{target} = x_{leader} + (x_{offset} \cos\theta - y_{offset} \sin\theta)$
 
 $y_{target} = y_{leader} + (x_{offset} \sin\theta + y_{offset} \cos\theta)$
+
+
 This ensures the formation rotates naturally with the leader.
 
 ---
