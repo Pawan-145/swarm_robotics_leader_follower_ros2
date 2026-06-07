@@ -64,14 +64,9 @@ self.shapes = {
 
 Follower targets are computed using a rotation transformation:
 
-[
-x_{target} = x_{leader} + (x_{offset} \cos\theta - y_{offset} \sin\theta)
-]
+$x_{target} = x_{leader} + (x_{offset} \cos\theta - y_{offset} \sin\theta)$
 
-[
-y_{target} = y_{leader} + (x_{offset} \sin\theta + y_{offset} \cos\theta)
-]
-
+$y_{target} = y_{leader} + (x_{offset} \sin\theta + y_{offset} \cos\theta)$
 This ensures the formation rotates naturally with the leader.
 
 ---
@@ -84,14 +79,9 @@ Each follower computes:
 * Angular error
 
 Control laws:
+$v = k_d \cdot d$
 
-[
-v = k_d \cdot d
-]
-
-[
-\omega = k_\theta \cdot \theta_{error}
-]
+$\omega = k_\theta \cdot \theta_{error}$
 
 This results in smooth and responsive motion.
 
