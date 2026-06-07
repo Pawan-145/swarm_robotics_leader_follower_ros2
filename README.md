@@ -124,7 +124,7 @@ ros2 run <your_package_name> swarm_controller
 swarm-robotics-ros2/
 │── swarm_controller.py
 │── README.md
-│── images/
+│── assets/demo.png
 ```
 
 ---
