@@ -124,7 +124,7 @@ ros2 run <your_package_name> swarm_controller
 ## 📂 Project Structure
 
 ```
-swarm-robotics-ros2/
+swarm_robotics_leader_follower_ros2/
 │── swarm_controller.py
 │── README.md
 │── assets/demo.png
